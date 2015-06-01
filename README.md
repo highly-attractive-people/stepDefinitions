@@ -10,7 +10,7 @@ Run `$ npm install --save-dev highly-attractive-step-definitions` to include thi
 
 ### Usage
 In your `features/step_definitions/myStepDefinitions.js` (or similar):
-```
+```javascript
 module.exports = function() {
   require('highly-attractive-step-definitions').call(this);
 }
