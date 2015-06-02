@@ -1,4 +1,4 @@
 module.exports = function() {
   require('./lib/world') .call(this);
-  require('./lib/navigation').call(this);
+  require('./steps/navigation').call(this);
 }
