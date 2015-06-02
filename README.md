@@ -16,7 +16,7 @@ module.exports = function() {
 }
 ```
 
-That's the bare minimum to have these step definitions available to you. Take a peak into the `lib` directory to see the provided step definitions.
+That's the bare minimum to have these step definitions available to you. Take a peak into the `steps` directory to see the provided step definitions.
 
 At this point, use the documentation on [Cucumber-JS][cucumberjs] on how to write and execute your features.
 
