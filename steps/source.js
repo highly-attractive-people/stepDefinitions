@@ -9,7 +9,7 @@ module.exports = function() {
       negate: !!negate,
       descriptor: 'html source'
     };
-    require('../lib/htmlOfElementMatchesWith').call(this, callback, selector, includeSelectorTag, expected, options)
+    require('../lib/htmlOfElementMatches').call(this, callback, selector, includeSelectorTag, expected, options)
   });
   // this.Given('the $attr attribute value of the $selector element matches $value');
   // this.Given('the $attr attribute value of the $selector element contains $value');
