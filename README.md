@@ -1,4 +1,5 @@
 ## Highly Attractive (Gherkin) Step Definitions
+[![npm version](https://badge.fury.io/js/highly-attractive-step-definitions.svg)](http://badge.fury.io/js/highly-attractive-step-definitions)
 
 ### Prerequesites
 - [Cucumber.js][cucumberjs]
