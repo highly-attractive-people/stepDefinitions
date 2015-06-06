@@ -21,6 +21,7 @@
   "homepage": "https://github.com/highly-attractive-people/stepDefinitions#readme",
   "dependencies": {
     "highly-attractive-node-utils": "^1.2.0",
+    "html-minifier": "^0.7.2",
     "lodash": "^3.9.3",
     "webdriverio": "^2.4.5"
   }
