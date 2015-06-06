@@ -1,3 +1,3 @@
 module.exports = function() {
-  this.Given(/^the title is "([^"]*)"$/, require('../lib/theTitleIs'));
+  this.Given(/^the (?:page )?title matches "([^"]*)"$/, require('../lib/pageTitleMatches'));
 }
