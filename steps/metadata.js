@@ -1,7 +1,6 @@
 var compareTypes = require('../lib//helpers/stringHelperCompareTypeMapper');
 
 module.exports = function() {
-  // this.Given(/^the (?:page )?title matches "([^"]*)"$/, require('../lib/pageTitleMatches'));
   this.Given(/^the (?:page )?title (does not )?(strictly )?(match(?:es)?|contain(?:s)?|start(?:s)? with|end(?:s)? with) (?:the text )?"([^""]*)"$/, function(negate, strict, compareType, expectedValue, callback) {
     var options = {
       caseSensitive: !!strict,
