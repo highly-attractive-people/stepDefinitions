@@ -1,4 +1,4 @@
-var compareTypes = require('../lib//helpers/stringHelperCompareTypeMapper');
+var compareTypes = require('../lib/helpers/stringHelperCompareTypeMapper');
 
 module.exports = function() {
   this.Given(/^(?:the )?(inner )?html of the "([^""]*)" element (does not )?(strictly )?(match(?:es)?|contain(?:s)?|start(?:s)? with|end(?:s)? with) with:$/, function (isNotInclusive, selector, negate, strict, compareType, expected, callback) {

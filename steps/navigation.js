@@ -5,4 +5,6 @@ module.exports = function() {
   this.Given(/^I go back$/,           require('../lib/iGoBack'));
   this.Given(/^I go forward$/,        require('../lib/iGoForward'));
   this.Given(/^I refresh the page$/,  require('../lib/iRefresh'));
+  // this.Given('I scroll up|down $number $units');
+  // this.Given('I go to some anchor fragment');
 }

@@ -8,4 +8,5 @@ module.exports = function(options) {
   require('./steps/navigation').call(this);
   require('./steps/source').call(this);
   require('./steps/text').call(this);
+  require('./steps/user-interaction').call(this);
 }
